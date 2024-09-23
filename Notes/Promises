@@ -1,0 +1,16 @@
+in javascript, a promise is an object that holds the future value of an async operation and that value can be used in future code thats dependent on that value.
+
+so basically the promise is like saying i will hold the result from an async operation for future use so we have three things, the 
+- async operation, 
+      e.g setTimeouts, API calls and Event listeners
+
+- the promise to hold the value
+     creating the promises using the promise constructor
+
+- the future use case i.e Handling the future value:
+
+    You can use .then() to specify what should happen when the Promise is fulfilled.
+    .catch() can be used to handle errors if the Promise is rejected.
+    .finally() can be used to specify code that should run regardless of whether the Promise was fulfilled or rejected.
+
+

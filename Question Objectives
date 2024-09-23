@@ -1,0 +1,24 @@
+Write three functions: 
+
+placeOrder(),
+
+processPayment(),  
+
+
+shipProduct(). 
+
+
+Return promises
+Each of these functions should return a promise that resolves after a random amount of time (between 1 and 3 seconds).
+
+Chain promises
+Chain these promises together to simulate the process of placing an order, processing the payment, and shipping the product.
+
+Error handling
+Handle any errors that may occur during any step, ensuring the error is logged appropriately.
+Bonus:
+
+Add a success message after all steps have been completed: "Order has been placed, payment processed, and product shipped!".
+
+
+If any step fails, the process should stop, and a failure message should be logged for the corresponding step.
